@@ -1,6 +1,5 @@
 baseUrl ="http://localhost:8080/api/";
 
-// revisar fibonacci hay problemas
 $("#fib_button").click(function(){
   fibUrl  = baseUrl + "fibonacci/" + $("#fib_number").val();;
   console.log(fibUrl);
