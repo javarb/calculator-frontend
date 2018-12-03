@@ -1,6 +1,3 @@
-// Testing BugSnag
-bugsnagClient.notify(new Error('Test error 2 ...'))
-
 baseUrl ="http://localhost:8080/api/";
 
 $("#fib_button").click(function(){
